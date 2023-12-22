@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    
+    display: flex;
+    width: 1399.679px;
+    align-items: center;
+    gap: 304px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    display: flex;
+}
+
+
+div1 img {
+    Width: 58.36px;
+    height: 35.59px;
+    Top: 17.42px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    
+}
+div1 {
+    align-items: center;
+    display: flex  ;
+    width: 172.679px;
+    
+    flex-shrink: 0;
+    padding-right: 300px;
+}
+div1 a {
+    font-family: 'Nunito', sans-serif;
+    width: 108px;
+    height: 41px;
+    top: 17px;
+    left: 64.68px;
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex  ;
+}
+
+    .SignIn {
+
+        display: flex;
+        padding: 25px 25px 25px 25px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 39px;
+        background: #5236FF;
+        padding: 30px;
+    }
+     a1 {
+        display: flex;
+        color: #FFF;
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    div2 {
+        background: #F9F9F9;
+        padding-right: 300px;
+    }
+    .Menu {display: flex;
+        padding: 24px 52px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 39px;}
+
