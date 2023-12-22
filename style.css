@@ -1,43 +1,25 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    
+.header {
     display: flex;
-    width: 1399.679px;
+    width: 1399.68px;
     align-items: center;
     gap: 304px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 10;
-    padding: 0;
-    display: flex;
-}
-
-
-div1 img {
-    Width: 58.36px;
-    height: 35.59px;
-    Top: 17.42px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 25px;
-    
-}
-div1 {
+    position: relative;
+  }
+  
+  .header .logo {
+    position: relative;
+    width: 174.68px;
+    height: 41px;
+  }
+  
+  .header .saa-sup {
     align-items: center;
     display: flex  ;
     width: 172.679px;
-    
+
     flex-shrink: 0;
     padding-right: 300px;
-}
-div1 a {
     font-family: 'Nunito', sans-serif;
     width: 108px;
     height: 41px;
@@ -52,36 +34,110 @@ div1 a {
     letter-spacing: 0em;
     text-align: left;
     display: flex  ;
-}
 
-    .SignIn {
+  }
+  
+  .header .text-wrapper {
+    color: #242330;
+  }
+  
+  .header .span {
+    color: #242333;
+  }
+  
+  .header .img {
+    position: absolute;
+    width: 58px;
+    height: 36px;
+    top: 0;
+    left: 0;
+  }
+  
+  .header .menu-button {
+    display: flex;
+    width: 923px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .header .menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px 52px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -1px;
+    background-color: #f9f9f9;
+    border-radius: 39px;
+  }
+  
+  .header .home-about-features {
+    padding-right: 40px;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Nunito-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #242331;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .header .text-wrapper-2 {
+    font-weight: 600;
+  }
+  
+  .header .text-wrapper-3 {
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+  }
+  
+  .header .text-wrapper-4 {
+    font-family: "FontAwesome-Regular", Helvetica;
+  }
+  
+  .header .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px 54px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #5135ff;
+    border-radius: 39px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .header .div {
+    display: flex;
+    padding: 54px  25px  54px 25px ;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 39px;
+    background: #5236FF;
+    padding: 30px;
+    font-family: "Nunito-SemiBold", Helvetica;
+  }
+  .header .button {
+    display: flex;
+    padding: 25px 25px 25px 25px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 39px;
+    background: #5236FF;
+    padding: 30px;
 
-        display: flex;
-        padding: 25px 25px 25px 25px;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 10px;
-        border-radius: 39px;
-        background: #5236FF;
-        padding: 30px;
-    }
-     a1 {
-        display: flex;
-        color: #FFF;
-        font-family: Nunito;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    div2 {
-        background: #F9F9F9;
-        padding-right: 300px;
-    }
-    .Menu {display: flex;
-        padding: 24px 52px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 39px;}
+  }
+  .header .text-wrapper-5 {
+    font-family: "Poppins-Medium", Helvetica;
 
+  }
