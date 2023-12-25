@@ -1,137 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600&display=swap');
+
 .header {
-    display: flex;
-    width: 1399.68px;
-    align-items: center;
-    justify-content: center;
-    gap: 400px;
-    position: relative;
-    padding-left: 200px;
-    padding-top: 50px ;
+  display: flex;
+  width: 1399.679px;
+  align-items: center;
+  gap: 304px;
 
   }
   
   .header .logo {
-    position: relative;
-    width: 174.68px;
-    height: 41px;
-    display: flex;
-    padding-right: 400px;
+    width: 58.359px;
+    height: 35.585px;
+    flex-shrink: 0;
+   
     
   }
   
-  .header .saasup {
+  .header .menu {
+    display: flex;
+    padding: 24px 52px;
+    justify-content: center;
     align-items: center;
-    display: flex  ;
-    width: 172.679px;
+    gap: 10px;
+    border-radius: 39px;
+    background: #F9F9F9;
+   
+  }
+  .header .menu a {
+    color: #242331;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+  
+  .header .button {
+    display: flex;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 39px;
+    background: #5236FF;
+  
+  }
+  .header .button a {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  
+  .header .baner {
+    width: 1920px;
+    height: 1552px;
     flex-shrink: 0;
-    padding-right: 300px;
-    font-family: 'Nunito', sans-serif;
-    padding-left: 70px;
-
-
-  }
-  
-  .header .text-wrapper {
-    color: #242330;
-    width: 108px;
-    height: 41px;
-    top: 17px;
-    left: 64.68px;
-    color: rgb(12, 11, 11);
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 41px;
-    letter-spacing: 0em;
-    text-align: left;
-    display: flex  ;
-  }
-  
-  .header .span {
-    color: #242333;
   }
   
   .header .img {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 58px;
-    height: 36px;
-    top: 0;
-    left: 0;
+   
   }
   
   .header .menu-button {
-    display: flex;
-    width: 350px;
-    align-items: flex-start;
-    justify-content: flex-end;
-    gap: 30px;
+    
   }
   
   .header .menu {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 24px;
-    flex: 0 0 auto;
-    background-color: #f3ebeb;
-    border-radius: 60px;
     
   }
   
   .header .home-about-features {
-    padding-right: 40px;
-    width: fit-content;
-    color: #242331;
-    font-size: 0.5px;
+    
   }
   
   .header .text-wrapper-2 {
-    align-items: center;
-    font-family: "Poppins-Medium", Helvetica;
-    text-align: left;
-    margin-right: 15px;
-    font-size: 20px;
-    padding-left: 15px;
+   
   }
   
   .header .text-wrapper-3 {
-    color: #ffffff;
-    width: 150px;
-    height: 31.5px;
-    top: 60px;
-    text-decoration: none;
-    font-family: Nunito;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center  ;
+   
     
   }
   
   
   .header .button {
-    display: flex;
-    height: 72px;
-    all: unset;
-    border-radius: 90px;
-    background: #5236FF;
-    padding:20px;
+   
 
   }
   
   .header .div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100px;
-    background: #5236FF;
-    font-family: "Nunito-SemiBold", Helvetica;
-    padding-left: 10px;
+    
   }
   
    
