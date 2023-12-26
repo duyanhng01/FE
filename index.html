@@ -1,48 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-  
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">
+      <img src="Logo (2).png" alt="logo">
+      <div class="SaaSup">SaaSup</div>
+    </div>
+<div class="menu">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Features</a>
+          <div class="dropdown-content">
+            <a href="#">Feature 1</a>
+            <a href="#">Feature 2</a>
+            <a href="#">Feature 3</a>
+          </div>
+        </li>
+        <li class="dropdown"><a href="#" class="dropbtn">Pages</a>
+          <div class="dropdown-content">
+            <a href="#">Pages1</a>
+            <a href="#">Pages2</a>
+          </div>
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 
-  <!-- HEADER-->
-    <div class="header"> 
-      <div class="Logo">
-      <img src="Logo.png" alt="Logo">
     
-    <div class="menu">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Features </a>
-      <a href="#">Page</a>
-      <a href="#">Block</a>
-      <a href="#">Contact</a>
-    </div>
-    </div>
-    <button class="button"><a href="#">SignIn</a>
-    </button>
-  <div>
-    <!-- BANER-->
-    <div class="baner">
-      <div class="subcontent">
-        <a href="text1">About our company</a>
-        <a href="text2">Lorem ipsum dolor sit amet consectetur adipiscing elit 
-          interdum ullamcorper sed pharetra sene.</a>
-          <div class="Image">
-          <img src="Image (1).png" alt="1">
-          <img src="Image (2).png" alt="2">
-        <div class="Who we are ">
-          <a href="text1">What we do</a>
-          <a href="text2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.
+  </nav>
+  <button>SignIn</button>
+</div>
 
-            Content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </a>
-
-      
-      </div>
-    </div>
   </div>
-    </div>
-  </body>
+</body>
+
 </html>
