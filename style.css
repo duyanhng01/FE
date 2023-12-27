@@ -243,14 +243,14 @@ display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
-.footer .text-content-2 a {
+.footer .text-content-1 a:hover{
     color: #5236FF;
 font-family: Nunito;
 font-size: 22px;
 font-style: normal;
 font-weight: 700;
 line-height: 267.5%;
-
+text-transform: capitalize
 
 }
 .footer .AppDownload {
@@ -269,6 +269,7 @@ text-decoration: none;
   
 display: flex;
 align-items: center;
+border-style: none;
 
 
 }
