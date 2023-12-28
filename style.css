@@ -194,6 +194,7 @@ gap: 58px;
     line-height: 157.4%;
     text-decoration: none;
     display: flex;
+    line-height: 50px;
 
 }
 
@@ -201,6 +202,7 @@ gap: 58px;
     flex-direction: column;
     margin-bottom: 10px;
     margin-right: 10px;
+    display: flex;
 
 }
 
@@ -222,6 +224,7 @@ gap: 58px;
     width: 22px;
     height: 22px;
     flex-shrink: 0;
+    display:flex;
 }
 .footer .pagelist {
     width: 428px;
@@ -231,17 +234,28 @@ flex-direction: row;
 display: flex;
 gap: 50px;
 display: flex;
+line-height: 10px;
 
 }
 .footer .pages {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    
+    
 }
 .footer .utilitypage{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+  
+}
+.footer .text-content-1 p {color: #797979;
+    font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.4%; 
+    display: flex;
+
 }
 .footer .text-content-1 a:hover{
     color: #5236FF;
@@ -250,20 +264,36 @@ font-size: 22px;
 font-style: normal;
 font-weight: 700;
 line-height: 267.5%;
-text-transform: capitalize
+text-transform: capitalize;
+
 
 }
 .footer .AppDownload {
     display: flex;
-width: 490px;
-padding: 65px 37px;
+    width: 490px;
+    padding: 65px 37px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F9F9F9;
+}
+.footer .subcontent {
+    display: flex;
+width: 397px;
 flex-direction: column;
 align-items: flex-start;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #F9F9F9;
-text-decoration: none;
+gap: 15px;
+}
+.footer .text-content-2 {
+    color: #5236FF;
+font-family: Nunito;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
 }
 .footer .button {
   
