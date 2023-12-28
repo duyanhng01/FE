@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;0,600;0,700;1,300&display=swap');
-.borde{
+
+.borde {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    width: 1400px;
 
 }
+
 .header {
-    display: flex ;
+    display: flex;
     width: 1400px;
-    align-items: center ;
+    align-items: center;
     gap: 304px;
-    margin: 50px auto;
-    
+    margin: 50px;
+
 
 
 }
@@ -25,7 +28,7 @@
     height: 41px;
     align-items: center;
     flex-shrink: 0;
-   
+
 }
 
 .header .logo img {
@@ -46,11 +49,13 @@
 
 .header .menu {
     display: flex;
-    align-items: center;}
+    align-items: center;
+}
+
 body {
     font-family: Nunito;
     box-sizing: border-box;
-    display:flex;
+    display: flex;
 }
 
 nav {
@@ -61,9 +66,9 @@ nav {
     gap: 10px;
     list-style-type: none;
     border-radius: 60px;
-    background: #F9F9F9; 
+    background: #F9F9F9;
     margin-right: 40px;
-   
+
 
 }
 
@@ -94,22 +99,24 @@ nav ul li a:hover {
 }
 
 
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     z-index: 1;
-  }
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     display: block;
     text-decoration: none;
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
+
 .header button {
     display: flex;
     padding: 25px 54px;
@@ -126,11 +133,7 @@ nav ul li a:hover {
 
 
 
-button:hover {
- 
-    font-family: Nunito;
-    
-}
+
 
 
 .footer {
@@ -140,15 +143,16 @@ button:hover {
     gap: 100 px;
     margin-top: 100px;
     margin: auto;
-    
+
 }
 
 .footer .SaaSup {
     display: flex;
-width: 1400px;
-align-items: flex-start;
-gap: 58px;
+    width: 1400px;
+    align-items: flex-start;
+    gap: 58px;
 }
+
 .footer .SaaSup1 {
     display: flex;
     width: 366px;
@@ -174,7 +178,7 @@ gap: 58px;
 
 }
 
-.footer .text-content a {
+.text-content {
     color: #242331;
     font-family: Nunito;
     font-size: 30px;
@@ -182,7 +186,21 @@ gap: 58px;
     font-weight: 800;
     line-height: normal;
     text-decoration: none;
+    gap: 13px;
 
+}
+
+.footer .email.address a {
+    color: #797979;
+    font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.4%;
+    text-decoration: none;
+    display: flex;
+
+    margin-bottom: auto;
 }
 
 .footer .text-content-1 a {
@@ -195,6 +213,7 @@ gap: 58px;
     text-decoration: none;
     display: flex;
     line-height: 50px;
+    margin-bottom: auto;
 
 }
 
@@ -216,58 +235,72 @@ gap: 58px;
     height: 22px;
     flex-shrink: 0;
 }
+
 .footer .phone-call {
     display: flex;
+
 }
+
 .footer .phone-call img {
     margin-right: 20px;
     width: 22px;
     height: 22px;
     flex-shrink: 0;
-    display:flex;
-}
-.footer .pagelist {
-    width: 428px;
-height: 537px;
-flex-shrink: 0;
-flex-direction: row;
-display: flex;
-gap: 50px;
-display: flex;
-line-height: 10px;
+    display: flex;
 
 }
+
+.footer .pagelist {
+    width: 428px;
+    height: 537px;
+    flex-shrink: 0;
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+    display: flex;
+    line-height: 10px;
+
+}
+
 .footer .pages {
     display: flex;
     flex-direction: column;
-    
-    
+    width: 40%;
+
+
 }
-.footer .utilitypage{
+
+.footer .utilitypage {
     display: flex;
     flex-direction: column;
-  
+
 }
-.footer .text-content-1 p {color: #797979;
+
+.text-content-1 p {
+    color: #797979;
     font-family: Nunito;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 157.4%; 
+    line-height: 157.4%;
     display: flex;
+    margin-top: auto;
+    margin-bottom: 20px;
 
 }
-.footer .text-content-1 a:hover{
+
+.footer .text-content-1 a:hover {
     color: #5236FF;
-font-family: Nunito;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: 267.5%;
-text-transform: capitalize;
+    font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 267.5%;
+    text-transform: capitalize;
 
 
 }
+
 .footer .AppDownload {
     display: flex;
     width: 490px;
@@ -279,71 +312,166 @@ text-transform: capitalize;
     border-radius: 50px;
     background: #F9F9F9;
 }
+
 .footer .subcontent {
     display: flex;
-width: 397px;
-flex-direction: column;
-align-items: flex-start;
-gap: 15px;
+    width: 397px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
 }
+
 .footer .text-content-2 {
     color: #5236FF;
-font-family: Nunito;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-}
-.footer .button {
-  
-display: flex;
-align-items: center;
-border-style: none;
-
-
-}
-.footer .button-1 button{
-    width: 200px;
-    height: 75px;
-    flex-shrink: 0;
-    border-radius: 39px;
-    background-color: black;
     font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.button {
+    color: #242331;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    padding: 25px 53px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 39px;
+    border: 1px solid #D3D3D3;
+
+}
+
+
+
+.button:hover {
+    background-color: #020202;
+    
+  color: white;
+
+}
+
+.career {
+    display: flex;
+    width: 1401px;
+    align-items: flex-start;
+    gap: 93px;
+}
+
+.career .heading-1 {
+    display: flex;
+    width: 474px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 31px;
+    flex-shrink: 0;
+}
+
+.career .career-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 39px;
+    background: #EFECFF;
+
+
+}
+
+.career .career-1 p {
+    color: #5236FF;
+    width: auto;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 25px 55px;
+
+}
+
+.career .text-content-3 {
+    color: #242331;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    /* 55px */
+}
+
+.career .content {
+    display: flex;
+    width: 834px;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+    flex-shrink: 0;
+}
+
+.career .border-1 {
+    display: flex;
+    width: 833px;
+    padding: 62px 66px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #CBCBCB;
+
+}
+
+.career .content-1 {
+    display: flex;
+    width: 701px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.career .text-content {
+    margin-bottom: 15px;
+}
+
+.career .border {
+    display: flex;
+    width: 834px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 39px;
+    flex-shrink: 0;
+    margin-bottom: 200px;
+}
+ .button-1  {
+    display: flex;
+    width: 416px;
+    
+    gap: 16px;
     
 
+
+
 }
-.footer .button-2 button{
+.button-1 button{
     width: 200px;
-    height: 75px;
-    flex-shrink: 0;
-    border-radius: 39px;
-    background-color: white;
-    font-family: Nunito;
+height: 75px;
+flex-shrink: 0;
+justify-self: start;
+display: flex;
 
 }
-.button-1 a {
-    color: #FFF;
-font-family: Nunito;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-decoration: none;
-}
-.button-2 a{
-    color: black;
-font-family: Nunito;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-decoration: none;
-
-}
-
-
-
-
-
-
