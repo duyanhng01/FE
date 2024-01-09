@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;0,600;0,700;1,300&display=swap');
 
-.borde {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,7 +321,7 @@ nav ul li a:hover {
     gap: 15px;
 }
 
-.footer .text-content-2 {
+.text-content-2 {
     color: #5236FF;
     font-family: Nunito;
     font-size: 22px;
@@ -360,8 +360,8 @@ nav ul li a:hover {
 
 .button:hover {
     background-color: #020202;
-    
-  color: white;
+
+    color: white;
 
 }
 
@@ -372,16 +372,16 @@ nav ul li a:hover {
     gap: 93px;
 }
 
-.career .heading-1 {
+ .career.heading-1 {
     display: flex;
     width: 474px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items:self-start;
     gap: 31px;
     flex-shrink: 0;
 }
 
-.career .career-1 {
+ .career-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -392,7 +392,7 @@ nav ul li a:hover {
 
 }
 
-.career .career-1 p {
+ .career-1 p {
     color: #5236FF;
     width: auto;
     font-family: Nunito;
@@ -404,14 +404,17 @@ nav ul li a:hover {
 
 }
 
-.career .text-content-3 {
+.text-content-3 {
     color: #242331;
     font-family: Nunito;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: 110%;
-    /* 55px */
+    text-align: left;
+    width: auto;
+    display: flex;
+
 }
 
 .career .content {
@@ -457,21 +460,193 @@ nav ul li a:hover {
     flex-shrink: 0;
     margin-bottom: 200px;
 }
- .button-1  {
+
+.button-1 {
     display: flex;
     width: 416px;
-    
+
     gap: 16px;
-    
+
 
 
 
 }
-.button-1 button{
-    width: 200px;
-height: 75px;
-flex-shrink: 0;
-justify-self: start;
-display: flex;
 
+.button-1 button {
+    width: 200px;
+    height: 75px;
+    flex-shrink: 0;
+    justify-self: start;
+    display: flex;
+
+}
+
+
+.Content {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.text-content-5 {
+    color: #242331;
+    font-family: Nunito;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    width: 700px;
+
+}
+
+.baner {
+    margin: 30px;
+
+
+
+}
+
+.image {
+    display: flex;
+    width: 1400px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+    border-radius: 60px;
+}
+
+.whowedo {
+    display: flex;
+    width: 1400px;
+    align-items: flex-start;
+    gap: 191px;
+
+    margin: 40px;
+}
+
+p {
+    margin: 0;
+    display: flex;
+}
+
+.whowedo  .text-content-3 p{
+    width: 300px;
+
+}
+
+.couter .couter-1 {
+    display: inline-flex;
+width: 1266px;
+justify-content: flex-start;
+align-items: center;
+gap: 135px;
+}
+
+.couter {
+    display: flex;
+    width: 1400px;
+    padding: 93px 67px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 100px;
+    border-radius: 50px;
+background: #F9F9F9;
+}
+.couter-1 .text-content p{
+    font-size: 25px;
+    display: inline;
+    width: 214px;
+height: 130px;
+flex-shrink: 0;
+}
+.couter-1 .text-content-5  { display: inline;
+    width: 214px;
+height: 130px;
+flex-shrink: 0;
+    
+    
+}
+
+
+.couter .text-content-5 p {
+    display: inline;
+}
+span{
+    color: #5236FF;
+font-family: Nunito;
+font-size: 75px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%;
+gap : 3px;
+}
+.mission {
+    display: flex;
+width: 1400px;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
+.ourmission{
+    display: inline-flex;
+width: 616px;
+flex-direction: column;
+align-items: flex-start;
+gap: 26px;
+flex-shrink: 0;
+margin: 100px;
+}
+.ourvalues{
+    display: flex;
+width: 1400px;
+flex-direction: column;
+align-items: center;
+gap: 39px;
+}
+.ourvalues .heading-1{
+    display: flex;
+width: 661px;
+flex-direction: column;
+align-items: center;
+gap: 31px;
+}
+.ourvalues .text-content-3 p{
+    display: flex;
+    text-align: center;
+}
+.box {
+    display: inline-flex;
+width: 1400px;
+flex-direction: column;
+align-items: center;
+
+gap: 51px;
+}
+.box-1 {
+    display: flex;
+width: 1400px;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
+gap: 52px;
+}
+.box-2{
+    
+    display: flex;
+    width: 674px;
+    padding: 39px 27px;
+   border-radius: 60px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+background: #F9F9F9;
 }
