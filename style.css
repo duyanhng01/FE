@@ -615,7 +615,7 @@ gap: 39px;
     display: flex;
 width: 661px;
 flex-direction: column;
-align-items: center;
+align-items: self-start;
 gap: 31px;
 }
 .ourvalues .text-content-3 p{
@@ -623,18 +623,19 @@ gap: 31px;
     text-align: center;
 }
 .box {
-    display: inline-flex;
+    display: grid;
 width: 1400px;
 flex-direction: column;
 align-items: center;
 
 gap: 51px;
+margin-bottom: 100px;
 }
 .box-1 {
-    display: flex;
-width: 1400px;
+    
+    display: grid;
+width: 700px;
 justify-content: center;
-flex-direction: column;
 align-items: flex-start;
 gap: 52px;
 }
@@ -646,7 +647,13 @@ gap: 52px;
    border-radius: 60px;
     justify-content: center;
     align-items: flex-start;
-    gap: 10px;
+    gap: 40px;
     flex-shrink: 0;
 background: #F9F9F9;
+}
+.box-3{
+    display: grid;
+    gap: 52px;
+    flex-direction: column ;width: 600px;
+    grid-template-columns: repeat(2, 1fr);
 }
